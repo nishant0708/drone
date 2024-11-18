@@ -21,7 +21,7 @@ body {
   left: 0;
   width: 100%; /* Ensure full width */
   height: 100%; /* Ensure full height */
-  z-index: 0; /* Ensure it stays below other elements */
+  z-index: -1; /* Ensure it stays below other elements */
 }
 
 
@@ -31,7 +31,7 @@ body {
   justify-content: center;
   flex-direction: column;
   color: white;
-  z-index: 1;
+  z-index: 100;
 }
 
 h1 {
