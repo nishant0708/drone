@@ -71,7 +71,7 @@ function App() {
     <div id="mid-root">
       <div className="overlay"></div>
       <div className="heading_block">
-        <h1 className="heading">Project Garud</h1>
+        <h1 className="heading">Agricultural Drone</h1>
         <h3>Weed Detection Map</h3>
         <MapContainer center={[22.7196, 75.8577]} zoom={13} style={{ height: "500px", width: "100%" }}>
           <TileLayer
